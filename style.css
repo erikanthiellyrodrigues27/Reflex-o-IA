@@ -2,8 +2,8 @@
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-destaque: #eb2bfd49;
+    --cor-texto: #d7f9ff17;
 
 }
 
@@ -45,14 +45,14 @@ button {
   border: none;
   border-radius: 2px;
   box-shadow:
-    2px 2px 0px hsl(197, 77%, 55%),
-    4px 4px 0px hsl(199, 73%, 59%),
-    6px 6px 0px hsl(219, 79%, 69%),
-    8px 8px 0px hsl(202, 57%, 53%),
-    10px 10px 0px hsl(220, 78%, 66%),
-    12px 12px 0px hsl(201, 75%, 60%),
-    14px 14px 0px hsl(214, 73%, 65%),
-    16px 16px 0px hsl(220, 80%, 30%),
+    2px 2px 0px hsl(309, 53%, 69%),
+    4px 4px 0px hsl(323, 29%, 49%),
+    6px 6px 0px hsl(323, 84%, 53%),
+    8px 8px 0px hsl(318, 60%, 62%),
+    10px 10px 0px hsla(313, 78%, 66%, 0.726),
+    12px 12px 0px hsla(308, 44%, 43%, 0.692),
+    14px 14px 0px hsl(332, 81%, 50%),
+    16px 16px 0px hsla(313, 80%, 30%, 0.342),
     18px 18px 0px hsl(0, 0%, 10%);
 }
 
@@ -63,20 +63,20 @@ button:hover {
 transition: all 0.5s;
   font-size: 17px;
   padding: 1ch 2ch;
-  background-color: rgb(81, 149, 216);
+  background-color: rgba(216, 81, 182, 0.473);
   color: #000;
   cursor: pointer;
   border: none;
   border-radius: 2px;
   box-shadow:
-    2px 2px 0px hsl(197, 77%, 55%),
-    4px 4px 0px hsl(199, 73%, 59%),
-    6px 6px 0px hsl(219, 79%, 69%),
-    8px 8px 0px hsl(202, 57%, 53%),
-    10px 10px 0px hsl(220, 78%, 66%),
-    12px 12px 0px hsl(201, 75%, 60%),
-    14px 14px 0px hsl(214, 73%, 65%),
-    16px 16px 0px hsl(220, 80%, 30%),
+    2px 2px 0px hsl(310, 59%, 53%),
+    4px 4px 0px hsl(327, 54%, 52%),
+    6px 6px 0px hsla(318, 78%, 69%, 0.61),
+    8px 8px 0px hsla(305, 57%, 53%, 0.288),
+    10px 10px 0px hsla(325, 91%, 55%, 0.76),
+    12px 12px 0px hsl(308, 59%, 65%),
+    14px 14px 0px hsl(315, 71%, 48%),
+    16px 16px 0px hsl(320, 65%, 52%),
 }
 
 
@@ -95,7 +95,7 @@ button:hover{
   align-items: center;
   justify-content: center;
   background: #e7e7e7;
-  border: #4453a6;
+  border: #e24bbc;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
@@ -117,14 +117,14 @@ button:hover{
   content: "";
   left: 0;
   justify-content: flex-end;
-  background-color: #4d60b6;
+  background-color: #e783da;
 }
 
 .card::after {
   content: "";
   right: 0;
   justify-content: flex-start;
-  background-color: #4453a6;
+  background-color: #e76db0;
 }
 
 .card:hover {
