@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
+     background: url('ia.jpg'); 
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
